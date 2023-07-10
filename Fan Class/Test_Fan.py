@@ -20,6 +20,16 @@ def start():
     fan1.set_status(True)
     
     print(Fore.LIGHTYELLOW_EX), fan1.display_fan()
+
+    fan2 = Fan()
+
+    fan2.set_speed(Fan.SLOW)
+    fan2.set_color("Blue")
+    fan2.set_radius(5)
+    fan2.set_status(False)
+    
+    print(Fore.LIGHTBLUE_EX), fan2.display_fan()
+    
 start()
 
 
