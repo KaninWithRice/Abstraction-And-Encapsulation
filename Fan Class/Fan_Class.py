@@ -31,3 +31,10 @@ class Fan:
         return fan.__color
     def set_color(fan, color):
         fan.__color = color
+# Display Function
+    def display_fan(fan):
+        print("Fan Details")
+        print("Speed : " + fan.__speed)
+        print("Status : " + fan.__status)
+        print("Radius : " + fan.__radius)
+        print("Color : " + fan.__color)
