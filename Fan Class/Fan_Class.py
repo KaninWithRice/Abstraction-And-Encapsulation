@@ -24,6 +24,10 @@ class Fan:
 # Radius Function
     def get_radius(fan):
         return fan.__radius
-    def set_speed(fan, radius):
+    def set_radius(fan, radius):
         fan.__radius = radius
 # Color Function
+    def get_color(fan):
+        return fan.__color
+    def set_color(fan, color):
+        fan.__color = color
