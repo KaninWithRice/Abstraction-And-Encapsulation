@@ -20,21 +20,21 @@ class Fan:
     def get_status(fan):
         return fan.__status
     def set_status(fan, status):
-        fan.__status = status
+        fan.__status = bool(status)
 # Radius Function
     def get_radius(fan):
         return fan.__radius
     def set_radius(fan, radius):
-        fan.__radius = radius
+        fan.__radius = float(radius)
 # Color Function
     def get_color(fan):
         return fan.__color
     def set_color(fan, color):
-        fan.__color = color
+        fan.__color = str(color)
 # Display Function
     def display_fan(fan):
         print("Fan Details")
-        print("Speed : " + fan.__speed)
-        print("Status : " + fan.__status)
-        print("Radius : " + fan.__radius)
-        print("Color : " + fan.__color)
+        print("Speed : ", fan.__speed)
+        print("Status : ", fan.__status)
+        print("Radius : ", fan.__radius)
+        print("Color : ", fan.__color)

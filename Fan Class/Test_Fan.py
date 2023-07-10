@@ -12,6 +12,14 @@ def start():
     print(Fore.CYAN + "WELCOME TO FAN GENERATOR".center(40," ") )
     print(Fore.YELLOW + "By: Mishal Noroña".center(40," ") + Fore.WHITE )
 # Create Two Fan Object
-    fan1 = Fan(Fan.FAST, "Yellow", 10, True)
-    fan1 = Fan(Fan.SLOW, "Blue", 5, False)
-# Loading Screen
+    fan1 = Fan()
+
+    fan1.set_speed(Fan.FAST)
+    fan1.set_color("Yellow")
+    fan1.set_radius(10)
+    fan1.set_status(True)
+    
+    print(Fore.LIGHTYELLOW_EX), fan1.display_fan()
+start()
+
+
