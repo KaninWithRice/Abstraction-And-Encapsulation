@@ -6,6 +6,11 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 # Create a Constructor
+    def __init__(fan, speed = SLOW, status = False, radius = 5, color = "Blue"):
+        fan.__speed = speed
+        fan.__status = status
+        fan.__radius = radius
+        fan.__color = color
 # Speed Function
 # Status Function
 # Radius Function
