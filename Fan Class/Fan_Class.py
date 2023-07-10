@@ -17,5 +17,9 @@ class Fan:
     def set_speed(fan, speed):
         fan.__speed = speed
 # Status Function
+    def get_status(fan):
+        return fan.__status
+    def set_status(fan, status):
+        fan.__status = status
 # Radius Function
 # Color Function
