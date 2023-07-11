@@ -2,28 +2,28 @@
 # Create a Class
 class Pet:
 # Create a Constructor
-    def __init__ (pet, name, type, age):
-        pet.__name = name
-        pet.__type = type
-        pet.__age = age
+    def __init__ (pet):
+        pet.__name = ""
+        pet.__type = ""
+        pet.__age = ""
 # Name Function
-    def set_name (pet, name):
-        pet.__name = name
+    def set_name (pet):
+        pet.__name = input("Enter the name of your Pet : ")
     def get_name (pet):
         return pet.__name
 # Animal Type Function
-    def set_type (pet, type):
-        pet.__type = type
+    def set_type (pet):
+        pet.__type = input("Enter The Type of Animal : ")
     def get_type (pet):
         return pet.__type
 # Age Function
-    def set_age (pet, age):
-        pet.__age = age
+    def set_age (pet):
+        pet.__age = int(input("Enter the age of your Pet : "))
     def get_age (pet):
         return pet.__age
 # Output
     def output (pet):
-        print("<<<<---Pet Details--->>>>")
+        print("\n<<<<---Pet Details--->>>>")
         print("Name : ", pet.__name)
         print("Type : ", pet.__type)
-        print("Age : ", pet.__age)
+        print("Age  : ", pet.__age)
