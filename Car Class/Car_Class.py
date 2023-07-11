@@ -19,3 +19,5 @@ class Car:
 # Speed Function
     def speed (car):
         return car.__speed
+    def show_speed (car):
+        print("The car is speed now at : ", + car.__speed, "kmph")
