@@ -7,5 +7,9 @@ class Car:
         car.__make = make
         car.__speed = 0
 # Accelaration Function
+    def acceleration (car):
+        car.__speed += 5
 # Brake Function
+    def brake (car):
+        car.__speed += 5
 # Speed Function
