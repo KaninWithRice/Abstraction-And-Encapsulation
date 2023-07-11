@@ -7,6 +7,10 @@ class Pet:
         pet.__type = type
         pet.__age = age
 # Name Function
+    def set_name (pet, name):
+        pet.__name = name
+    def get_name (pet):
+        return pet.__name
 # Animal Type Function
 # Age Function
 # Output
