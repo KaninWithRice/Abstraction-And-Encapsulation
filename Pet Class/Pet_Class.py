@@ -22,3 +22,8 @@ class Pet:
     def get_age (pet):
         return pet.__age
 # Output
+    def output (pet):
+        print("<<<<---Pet Details--->>>>")
+        print("Name : ", pet.__name)
+        print("Type : ", pet.__type)
+        print("Age : ", pet.__age)
