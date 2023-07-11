@@ -12,5 +12,9 @@ class Pet:
     def get_name (pet):
         return pet.__name
 # Animal Type Function
+    def set_type (pet, type):
+        pet.__type = type
+    def get_type (pet):
+        return pet.__type
 # Age Function
 # Output
