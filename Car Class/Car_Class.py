@@ -15,7 +15,7 @@ class Car:
         car.__speed += 5
 # Brake Function
     def brake (car):
-        car.__speed += 5
+        car.__speed -= 5
 # Speed Function
     def speed (car):
         return car.__speed
